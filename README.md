@@ -1,0 +1,1 @@
+# Mini Project based on HTML, CSS, JAVASCRIPT, PYTHON
