@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <style>
+    h1 {
+      text-align: center;
+      text-decoration: underline;
+
+      padding: 10px;
+    }
+
+    p {
+
+      text-align: center;
+
+      padding: 30px;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: black;
+      font-family: "Montserrat", sans-serif;
+    }
+
+    li {
+      float: left;
+    }
+
+    #aaa {
+      padding: 10px;
+      background-color: whitesmoke;
+    }
+
+    .banner {
+      position: relative;
+      width: 90%;
+      margin: 0 auto;
+
+    }
+
+    .heading {
+      color: white;
+      position: absolute;
+      top: 32%;
+      width: 100%;
+      text-align: center;
+      font-size: 3;
+
+    }
+
+
+    #bbb {
+      font-family: 'gabriola';
+
+    }
+
+    #logo {
+      background-color: lightseagreen;
+      padding-top: 0px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 15px 25px;
+      font-size: 24px;
+      cursor: pointer;
+      text-align: left;
+      text-decoration: none;
+      outline: none;
+      color: #fff;
+      background-color: #d14d4d;
+      border: none;
+      border-radius: 15px;
+      box-shadow: 0 9px #999;
+      /* float: right; */
+      margin: 30px;
+
+
+    }
+
+    .button:hover {
+      background-color: #800000
+    }
+
+    .button:active {
+      background-color: #ad0000;
+      box-shadow: 0 5px #666;
+      transform: translateY(4px);
+      text-align: center;
+    }
+
+    #features {
+      padding: 7% 15% 7% 15%;
+    }
+
+    .feature-box {
+      text-align: center;
+      padding: 5%;
+    }
+
+    .icon {
+      color: #ef8172;
+      margin-bottom: 2rem;
+    }
+
+    .icon:hover {
+      color: #ff4c68;
+    }
+
+    #footer {
+      padding: 7% 15%;
+      text-align: center;
+      background-color: lightseagreen;
+    }
+
+    .social-icon {
+      padding: 20px 20px;
+      color: black;
+    }
+  </style>
+
+
+  <!-- CSS Stylesheets -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+  <script src="https://kit.fontawesome.com/a349ae962b.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body bgcolor:"whitesmoke;">
+
+  <section id="title">
+
+
+
+    <div class="container1">
+      <div id="logo">
+        <img src="https://chennaites.in/wp-content/uploads/2020/02/Story-2.jpg" style=" height: 102px;" alt="logo">
+      </div>
+
+
+      <nav class="navbar navbar-expand-lg navbar-dark" style="width: 100%; background-color: black">
+        <button class="navbar-toggler" style="background-color:grey;" type="button" data-toggle="collapse"
+          data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index1.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html" target=”_blank”>About</a>
+            </li>
+            <li class="nav-item"> 
+              <a class="nav-link" href="acts.html" target=”_blank”>Act</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html" target=”_blank”>Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pc.html" target=”_blank”>Police complaint</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html" target=”_blank”>Logout</a>
+            </li>
+            <li class="nav-item"> 
+              <a class="nav-link" href="contact.html" target=”_blank”>Share</a>
+            </li>
+            
+            
+
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </section>
+
+
+  <!-- Button to  trigger Login modal -->
+  <!-- SignUp Modal -->
+  <div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="signupModal" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="signupModalTitle">SignUp Here</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form action="/signup" method='post'>
+            <div class="form-group">
+              <label for="username">Username</label>
+              <input type="text" class="form-control" id="username" name="username"
+                placeholder="Choose a unique username">
+            </div>
+            <div class="form-group">
+              <label for="fname">First Name</label>
+              <input type="text" class="form-control" id="fname" name="fname" placeholder="Enter Your First Name">
+            </div>
+            <div class="form-group">
+              <label for="lname">Last Name</label>
+              <input type="text" class="form-control" id="lname" name="lname" placeholder="Enter Your Last Name">
+            </div>
+            <div class="form-group">
+              <label for="email">Email address</label>
+              <input type="email" class="form-control" id="email" name="email" placeholder="name@example.com">
+            </div>
+            <div class="form-group">
+              <label for="pass1">Choose a password</label>
+              <input type="password" class="form-control" id="pass1" name="pass1" placeholder="Choose Your Password">
+            </div>
+            <div class="form-group">
+              <label for="pass2">Confirm Password</label>
+              <input type="password" class="form-control" id="pass2" name="pass2"
+                placeholder="Enter your password again">
+            </div>
+
+
+            {% csrf_token %}
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+        <div class="modal-footer">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="aaa"></div>
+  <center>
+    <div class="container">
+      <div class="row">
+        <div class="banner">
+
+          <!--<img src="https://render.fineartamerica.com/images/images-profile-flow/400/images/artworkimages/mediumlarge/1/13-febuario-2015-h-james-hoff.jpg" width="1200px" height="600px"> -->
+          <img
+            src="https://images.unsplash.com/photo-1602303832993-7203c580c225?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGNyeWluZ3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80"
+            height="375px" width="100%" bottom="1px" top="1px">
+          <div classs="col col-lg-8">
+
+
+            <h2 class="heading">
+              <pre>S A F E T Y       I S       A      R I G H T !        </pre>
+            </h2>
+          </div>
+        </div>
+      </div>""
+    </div>
+  </center>
+
+
+
+
+
+  <p style="font-size:23px; font-family: sans-serif; background-color: greenyellow;padding: 8px;"><b>Women's Safety
+      Division</b></p>
+  <p style="font-size: 16px; font-family: georgia;background-color: whitesmoke ;padding: 0;">
+
+
+    Women’s safety involves strategies, practices and policies which aim to reduce
+    gender-based violence (or violence against women), including women’s fear
+    of crime.
+    Women’s safety involves safe spaces. Space is not neutral.
+    Space which causes fear restricts movement and thus the community’s use of the space. Lack of
+    movement and comfort is a form of social exclusion.
+    Conversely, space can also create a sensation of safety and comfort, and can serve to discourage
+    violence. Therefore planning and policy around safety should always involve
+    and consider wome.
+
+    Sexual harassment of women in public places is not defined precisely under Indian law. Several sections of the
+    Indian Penal Code (IPC) deal with it in different ways, and in many cases, with significant overlaps.
+    Section 292 states that that showing pornographic or obscene pictures, books or slips to a woman or girl will
+    draw a fine of Rs.2000 with two years of rigorous imprisonment for first offenders.
+
+    Section 298 (A) and (B) of the IPC sentences a man found guilty of making a girl or woman the target of obscene
+    gestures, remarks, songs or recitation for a maximum tenure of three months.
+    Section 354 deals with the use of criminal force against a woman with intent to outrage her modesty, and
+    prescribes imprisonment of upto two years, or a fine, or both.
+
+    Under Section 509, obscene gestures, indecent body language and comments intended to ‘insult the modesty of
+    a woman’ carry a penalty of rigorous imprisonment for one year, or a fine, or both
+    Like many other modern cities, Delhi, over the decades has witnessed
+    phenomenal expansion as tens of thousands of people regularly arrive at its
+    doorstep in search of livelihoods. The population of Delhi, according to the
+    2001 census was 13.8 million, making it the third largest city in India after
+    Mumbai and Kolkata.
+    It is estimated that the population in the Capital.
+
+  </p>
+  <button class="button"><a href="ipcact1.html" target=”_blank”>IMPORTANT DETAILS</a></button><br>
+
+  <br />
+
+
+  <br />
+  <div>
+    <br />
+    <section id="features">
+
+      <div class="row">
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-fist-raised fa-4x"></i>
+          <h3>Justice-For-Womens</h3>
+
+        </div>
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-exclamation-circle fa-4x"></i>
+          <h3>No Human Should Be Without Rights.</h3>
+
+        </div>
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-hand-holding-heart fa-4x"></i>
+          <h3>Be a real man and respect women.</h3>
+
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <footer id="footer">
+    <a href="https://www.facebook.com/groups/774744263188096/?ref=share"  
+      class="social-icon fab fa-facebook fa-2x" target=”_blank”></a>
+    <a href="https://twitter.com/womenssafetynsw?s=08"  class="social-icon fab fa-twitter fa-2x" target=”_blank”></a>
+    <a href="https://instagram.com/womens_aid?utm_medium=copy_link" 
+      class="social-icon fab fa-instagram fa-2x" target=”_blank”></a><br />
+    <p>click on the icon for more information</p>
+    <p>© Women Safety Division </p>
+
+  </footer>
+
+ 
+
+  <!-- Login Modal -->
+  <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModal" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="loginModalTitle">Login Here</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form method='post' action='/login'>
+            {% csrf_token %}
+            <div class="form-group">
+              <label for="username">Username</label>
+              <input type="text" class="form-control" id="username" name="username" placeholder="username">
+            </div>
+            <div class="form-group">
+              <label for="pass"> password </label>
+              <input type="password" class="form-control" id="pass" name="password" placeholder="Password">
+            </div>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+        <div class="modal-footer">
+        </div>
+</body>
+
+</html>

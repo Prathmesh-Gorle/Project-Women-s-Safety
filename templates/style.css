@@ -1,0 +1,17 @@
+.main1{
+    width: 100%;
+}
+.main2{
+  border-left: 6px solid green;
+  width: 100%;
+ 
+}
+body{
+    background-color: aliceblue;
+}
+strong{
+    border-left: 4px solid rgb(7, 194, 169);
+}
+table{
+    width: 100%;
+}
