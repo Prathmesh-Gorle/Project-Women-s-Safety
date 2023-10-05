@@ -1,1 +1,1 @@
-# Mini Project based on HTML, CSS, JAVASCRIPT, PYTHON
+# Group Project based on HTML, CSS, PYTHON Django
