@@ -6,3 +6,6 @@
 ![Screenshot 2023-10-17 122440](https://github.com/Prathmesh-Gorle/Project-Women-s-Safety/assets/86977369/f5a594d4-80c7-417c-aebb-01c4bd9ffb5f)
 2)STATE AND UT'S POLICE
 
+![Screenshot 2023-10-17 122249](https://github.com/Prathmesh-Gorle/Project-Women-s-Safety/assets/86977369/430c74ad-c855-46d0-9414-440f6b1aa456)
+3)SOCIAL ICONS
+
